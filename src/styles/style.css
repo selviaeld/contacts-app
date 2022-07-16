@@ -26,6 +26,10 @@ img {
     color: #898AA6;
 }
 
+.contact-app  h2 {
+    color: #576F72;
+}
+
 .contact-item {
     display: flex;
     align-items: center;
@@ -60,15 +64,16 @@ img {
 .contact-item__delete {
     padding: 8px;
     font-size: 18px;
-    background-color: orangered;
+    background-color: #EB4747;
     color: white;
+    font-weight: 900;
     border: 0;
     border-radius: 4px;
     cursor: pointer;
 }
    
 .contact-input {
-    border: 1px dashed black;
+    border: 2px double #898AA6;
     padding: 16px;
     margin: 14px 0;
     border-radius: 8px;
@@ -76,6 +81,7 @@ img {
 }
    
 .contact-input input {
+    border: 1px double #C9BBCF;
     display: block;
     width: 100%;
     padding: 8px;
@@ -87,4 +93,11 @@ img {
     width: 100%;
     padding: 8px;
     font-family: 'Inter', sans-serif;
+    background-color: #B7D3DF;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-input button:hover {
+    background-color: #73A9AD;
 }
